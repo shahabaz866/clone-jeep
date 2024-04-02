@@ -1,0 +1,395 @@
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: Heebo;
+  src: url(fonts/Heebo-Bold.ttf);
+}
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+ 
+}
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: relative;
+}
+nav {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 12px;
+}
+.HeaderMainContainer {
+  background-color: black;
+  display: flex;
+}
+.JeepIcon {
+  display: block;
+  margin-top: 15px;
+}
+.JeepLogo {
+  height: 29px;
+  width: 75px;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  margin-right: 15px;
+}
+.TextHeaderContainer {
+  display: flex;
+  margin-top: 15px;
+}
+.List1 {
+  flex-direction: column;
+  padding-top: 10px;
+}
+.TextHeaderContainer div {
+  display: flex;
+  margin: 20px;
+  text-align: center;
+}
+
+sup {
+  font-size: 7px;
+}
+.HeaderContainer2nd {
+  display: flex;
+  text-align: center;
+  margin-top: 15px;
+}
+.space {
+  width: 70px;
+}
+.BUILD {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.tollfree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.tollfree,
+i {
+  display: flex;
+  margin-right: 11px;
+}
+.MainSectorContainer {
+  background-image: url(jeepimg/banner-wrangler-dsk-3.jpg.img.2880.jpg);
+  background-size: cover;
+  height: 539px;
+}
+.StickyLists {
+  position: fixed;
+  right: 0;
+  top: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.StickyLists .List {
+  background-color: rgb(245, 195, 12);
+  margin: 3px 0;
+  padding: 7px 15px;
+}
+
+.StickyLists .List img {
+  width: 20px;
+}
+.StickyMessage {
+  position: fixed;
+  right: 3%;
+  top: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.StickyMessage .MessageIcon img {
+  width: 25px;
+  height: 25px;
+}
+.StickyMessage .MessageIcon {
+  background-color: rgb(252, 252, 252);
+  margin: 3px 0;
+  padding: 7px 15px;
+  border-radius: 10px;
+}
+
+/* Section */
+.SubSectionContainer {
+  display: block;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.TwoButtons {
+  display: flex;
+  position: absolute;
+  left: 840px;
+  top: 530px;
+}
+.TwoButtons button {
+  margin: 10px;
+  height: 40px;
+  width: 150px;
+  background-color: rgb(223, 158, 7);
+  border-style: none;
+  font-weight: 700;
+  font-family: heebo;
+  font-size: 14px;
+}
+.TwoButtons button:hover {
+  box-shadow: 7px 6px 8px 7px rgba(0, 0, 0, 0.24),
+    7px 7px 6px 3px rgba(0, 0, 0, 0.19);
+  background-color: rgb(251, 176, 2);
+}
+.RadioButton {
+  display: flex;
+  justify-content: center;
+}
+.RadioButton button {
+  flex-direction: column;
+  position: absolute;
+  border-radius: 50px;
+  height: 30px;
+  width: 130px;
+  background-color: rgb(10, 9, 9);
+  border-style: none;
+  top: 580px;
+}
+.RadioButton ul {
+  display: flex;
+  align-items: center;
+  padding-top: 3px;
+}
+.RadioButton li {
+  margin: 3px;
+}
+
+.first {
+  accent-color: #171616;
+}
+
+.CenterConatainer {
+  display: block;
+  font-family: Heebo;
+  margin-top: 50px;
+}
+.HeadingContainer {
+}
+.HeadingContainer h3 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+  padding-left: 500px;
+  padding-right: 525px;
+  margin-left: 20px;
+}
+.CenterConatainer span {
+  font-size: 12px;
+}
+.products {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  padding-bottom: 30px;
+}
+
+.ProductsContainer {
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.product img {
+  width: 280px;
+  height: auto;
+  object-fit: cover;
+}
+.product h4 {
+  margin: 0;
+  margin-top: -5px;
+  text-align: center;
+}
+.imgjeepfront {
+  display: block;
+}
+.imgjeepfront img {
+  width: 100%;
+}
+
+.section2Container {
+  display: block;
+  background-color: #d1d1d1;
+  margin-top: -7px;
+}
+.SectionImage {
+  display: flex;
+}
+.Imgcontainer {
+  flex-direction: column;
+  padding: 20px;
+  text-align: end;
+
+  padding-bottom: 20px;
+}
+.Imgcontainer img {
+  height: 280px;
+  width: auto;
+}
+.Imgcontainer span {
+  font-family: Heebo;
+  font-weight: 200;
+}
+.textSectionimg {
+  margin-top: -3px;
+  background-color: hwb(0 90% 9%);
+}
+.textSectionimg img {
+  height: 20px;
+}
+.textSectionimg:hover {
+  text-decoration: underline;
+}
+footer {
+  background-color: black;
+}
+.footernav1container {
+  display: flex;
+  background-color: rgb(33, 33, 33);
+}
+.footersubdivnav {
+  flex-direction: column;
+  padding: 50px;
+  padding-bottom: 40px;
+}
+.footersubdivnav span {
+  color: #bfbfbf;
+  margin-left: 50px;
+}
+.SearchInputTag {
+  display: flex;
+  align-items: center;
+  font-family: Heebo;
+}
+.SearchInputTag input {
+  height: 30px;
+  border-style: none;
+  border-radius: 1px;
+}
+.SearchInputTag button {
+  background-color: rgb(251, 176, 2);
+  height: 33px;
+  width: 100px;
+  border-style: none;
+  font-size: 12px;
+  font-weight: 400;
+}
+.SearchInputTag button:hover {
+  background-color: rgb(206, 149, 15);
+}
+.secondfooter {
+  display: flex;
+  background-color: black;
+  font-family: Heebo;
+}
+.secondfootermain {
+  display: flex;
+  margin: 40px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+
+.secondfootermain div {
+  display: flex;
+  padding-bottom: 10px;
+}
+.secondfootermain div span {
+  flex-direction: column;
+  font-size: 12px;
+  color: #fff;
+}
+.secondfootermain div li {
+  margin: 0;
+  color: #bfbfbf;
+  font-size: 13px;
+  margin-top: 15px;
+  width: 200px;
+}
+.secondfootermain div li:hover {
+  color: #fff;
+}
+.partnersul {
+  margin-bottom: 70px;
+}
+#Follow {
+  margin-top: 50px;
+}
+.partnersul span {
+  margin-left: 15px;
+}
+.partnersulspan {
+  flex-direction: column;
+  padding-top: 50px;
+}
+#parners span img {
+  border-radius: 3px;
+  height: 20px;
+}
+#partnersspan {
+  margin: 0;
+}
+#firstspan {
+  margin: 0;
+}
+.footerthird {
+  display: flex;
+  margin-top: 20px;
+}
+.imgStellan {
+  display: flex;
+  margin-left: 100px;
+  padding-bottom: 20px;
+}
+.imgStellan span img {
+  height: 30px;
+}
+#jeeptext {
+  color: #bfbfbf;
+  margin-left: 900px;
+  font-size: 10px;
+}
+#jeeptext sub {
+  font-size: 4px;
+  font-family: Heebo;
+}
+#hrline {
+  height: 1px;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: gray;
+  border-top: 1px;
+}
+.footer4rth{
+  color: #bfbfbf;
+margin-left: 100px;
+margin-right: 700px;
+font-size: 10px;
+padding-bottom: 50px;
+}
+.footer4rth h6{
+  margin: 0;
+font-size: 12px;
+}
